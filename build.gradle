@@ -19,7 +19,10 @@ repositories {
 dependencies {
 
     implementation 'org.flywaydb:flyway-mysql'
+    // https://mvnrepository.com/artifact/com.alipay.sdk/alipay-easysdk
+    implementation group: 'com.alipay.sdk', name: 'alipay-easysdk', version: '2.2.2'
 
+    implementation 'com.alipay.sdk:alipay-sdk-java:4.31.84.ALL'
     implementation 'com.alibaba:fastjson:2.0.10'
     implementation 'com.h2database:h2:1.4.200'
     implementation 'org.springframework.boot:spring-boot-starter-web'
